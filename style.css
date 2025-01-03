@@ -48,7 +48,6 @@ main {
     color: rgb(255, 0, 0);
     font-size: 40px;
     font-weight: bold;
-    width: 1200px;
     background-image: url('https://www.techspot.com/articles-info/2060/images/2020-07-28-image-18.jpg');
     background-size: 10px;
     width: 500px;
@@ -96,4 +95,191 @@ main {
     width: 450px;
     background-color: magenta;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@media (max-width:720px) {
+    body {
+        background-color: rgb(214, 170, 255);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    main {
+    
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    
+    }
+
+    .res,.res1{
+        color: #161616;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 50px;
+        
+        
+    }
+    .d{
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .marq{
+        
+        border: 10px solid #333;
+        color: rgb(255, 0, 0);
+        font-size: 40px;
+        font-weight: bold;
+        background-image: url('https://www.techspot.com/articles-info/2060/images/2020-07-28-image-18.jpg');
+        background-size: 10px;
+        width: 400px;
+    }
+    
+    .main_box {
+        margin-top: 30px;
+        height: 530px;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        background-color: rgb(212, 255, 169);
+    }
+    
+    .game_box {
+        /* margin-top: 10px; */
+        height: 500px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: yellowgreen;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    }
+    
+    .game_box img {
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 70px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    
+    .game_box img:hover {
+        box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px, rgb(31, 193, 27) 0px 0px 0px 3px,
+            rgb(255, 217, 19) 0px 0px 0px 4px, rgb(255, 156, 85) 0px 0px 0px 5px, rgb(255, 85, 85) 0px 0px 0px 6px;
+    }
+    
+    .box4 {
+        margin-top: 25px;
+        height: 190px;
+        width: 350px;
+        background-color: magenta;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    
+}
+
+@media (max-width:480px) {
+    body {
+        background-color: rgb(214, 170, 255);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    main {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    
+    }
+    .heading{
+        width: 50px;
+        font-size: 25px;
+        background-color: rgb(255, 255, 255);
+        color: rgba(255, 0, 51, 0.419);
+    
+    }
+    .res,.res1{
+        color: #161616;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 30px;
+        
+        
+    }
+    .d{
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .marq{
+        
+        border: 5px solid #333;
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        background-image: url('https://www.techspot.com/articles-info/2060/images/2020-07-28-image-18.jpg');
+        background-size: 10px;
+        width: 200px;
+    }
+    
+    .main_box {
+        margin-top: 30px;
+        height: 500px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        background-color: rgb(212, 255, 169);
+    }
+    
+    .game_box {
+        /* margin-top: 10px; */
+        height: 450px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: yellowgreen;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    }
+    
+    .game_box img {
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 66px;
+    
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    
+    .game_box img:hover {
+        box-shadow: rgb(85, 91, 255) 0px 0px 0px 1px, rgb(31, 193, 27) 0px 0px 0px 3px,
+            rgb(255, 217, 19) 0px 0px 0px 4px, rgb(255, 156, 85) 0px 0px 0px 5px, rgb(255, 85, 85) 0px 0px 0px 6px;
+    }
+    
+    .box4 {
+        margin-top: 25px;
+        height: 150px;
+        width: 250px;
+        background-color: magenta;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+
+    
 }

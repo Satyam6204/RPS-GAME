@@ -92,15 +92,21 @@ function scissor() {
     if (ai == 'Rock') {
         result.textContent = `Computer :${ai}`
         W_result.textContent = `Computer Won🤖`
+
+
     }
 
     if (ai == `Paper`) {
         result.textContent = `Computer :${ai}`
         W_result.textContent = 'You Won🎉🎊✨'
+
+
     }
 
     if (ai == `Scissor`) {
         result.textContent = `Computer :${ai}`
         W_result.textContent = `Game Draw🤜🤛`
+
+
     }
 }
